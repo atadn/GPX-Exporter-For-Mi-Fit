@@ -22,7 +22,7 @@
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-9651595789067045~2830176341" />
+            android:value="ca-app-pub-9651595789067045~283000176341" />
 
         <activity
             android:name="com.fablapps.gpxexporterformifit.ui.MainActivity"
