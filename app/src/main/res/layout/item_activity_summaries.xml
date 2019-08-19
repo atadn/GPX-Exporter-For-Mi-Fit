@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="2dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="@color/colorWhite"
+        card_view:cardCornerRadius="6dp"
+        card_view:cardElevation="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <ImageView
+                android:id="@+id/image_activity_type"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="14dp"
+                app:srcCompat="@drawable/ic_walk"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/text_activity_type_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="51dp"
+                android:layout_marginTop="6dp"
+                android:maxLines="1"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_activity_used_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/image_activity_time"
+                android:layout_marginStart="3dp"
+                android:layout_toEndOf="@+id/image_activity_time"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@color/colorGray"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:id="@+id/image_activity_time"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_below="@+id/text_activity_type_distance"
+                android:layout_marginStart="51dp"
+                android:tint="@color/colorGrayA"
+                app:srcCompat="@drawable/ic_time"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/text_activity_saved_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="5dp"
+                android:maxLines="1"
+                android:textColor="@color/colorGray"
+                android:textSize="13sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

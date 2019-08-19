@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">GPX Exporter For Mi Fit</string>
+    <string name="activity_summaries_title">Activities</string>
+    <string name="version_name" translatable="false">1.0.3</string>
+
+    <string name="msg_no_root_access">No ROOT access</string>
+    <string name="msg_no_data">No Data</string>
+
+    <string name="action_dialog_export">EXPORT</string>
+    <string name="action_dialog_share">SHARE</string>
+
+    <string name="message_install_gp">You need to install Google play</string>
+
+
+    <string name="dialogmail_email" translatable="false">info@fablapps.com</string>
+    <string name="dialogmail_subject">Feedback</string>
+    <string name="dialogmail_title">Send Feedback</string>
+
+
+    <string name="custom_dialog_buy_title">PRO Features</string>
+    <string name="custom_dialog_buy_message">Buy premium version to support the developer and to unlock some extra features:</string>
+    <string name="custom_dialog_buy_messagebottom">\u25CF Advertisements removed\n\u25CF Any future upgrade you can think of!</string>
+    <string name="custom_dialog_buy_button">BUY</string>
+
+    <string name="billing_purchased">You\'ve already bought it. Thank you :)</string>
+    <string name="billing_error_gms">Unable to Initiate Purchase. Please update Google Play Service.</string>
+    <string name="billing_now_purchased">Ads Removed. Thank You!</string>
+    <string name="billing_purchase_failed">Purchase Failed</string>
+
+    <string name="warning_dialog_about_version">Version</string>
+    <string name="warning_dialog_about_policy">Privacy Policy</string>
+    <string name="warning_dialog_about_osl">Open Source Licenses</string>
+    <string name="warning_dialog_about_positive">Okay</string>
+
+
+    <string name="location_permission_denied_permactivity_bottomtext">To continue, give storage permission access to GPX Exporter For Mi Fit</string>
+    <string name="location_permission_denied_permactivity_title">Permission Required</string>
+    <string name="location_permission_denied_permactivity_button">GO TO SETTINGS</string>
+
+    <string name="export_gpx_saved">GPX Saved in</string>
+    <string name="export_failed">Export process failed</string>
+
+    <string name="activity_type_run">Run</string>
+    <string name="activity_type_walk">Walk</string>
+    <string name="activity_type_trail">Trail</string>
+    <string name="activity_type_cycling">Cycling</string>
+    <string name="activity_type_other">Other</string>
+
+
+    <string name="item_menu_help">Help</string>
+    <string name="item_menu_filter">Filter</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="title_about">About</string>
+    <string name="title_rateit">Rate it!</string>
+    <string name="title_share">Share</string>
+    <string name="title_feedback">Submit Feedback</string>
+    <string name="title_shop">Remove Ads + PRO</string>
+
+</resources>

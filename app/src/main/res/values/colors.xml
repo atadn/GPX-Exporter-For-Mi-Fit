@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00838f</color>
+    <color name="colorPrimaryDark">#005662</color>
+    <color name="colorAccent">#4fb3bf</color>
+
+    <color name="secondaryColor">#eeeeee</color>
+    <color name="NavHeaderLayoutColor">#dcdcdc</color>
+    <color name="NavHeaderTextColor">#424242</color>
+
+    <color name="colorRed">#f44c4c</color>
+    <color name="colorGray">#aa5b5b5b</color>
+    <color name="colorGrayA">#797979</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="separatorColor">#bfbfbf</color>
+
+    <color name="textColor">#212121</color>
+    <color name="textColorGray">#424242</color>
+
+    <color name="timelineColor">#E7E7E7</color>
+</resources>

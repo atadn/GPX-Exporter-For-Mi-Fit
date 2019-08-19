@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/filter"
+        android:icon="@drawable/ic_filter_list"
+        android:title="@string/item_menu_filter"
+        android:visible="false"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/run_item"
+                android:checkable="true"
+                android:checked="true"
+                android:title="@string/activity_type_run" />
+            <item
+                android:id="@+id/walk_item"
+                android:checkable="true"
+                android:checked="true"
+                android:title="@string/activity_type_walk" />
+            <item
+                android:id="@+id/trail_item"
+                android:checkable="true"
+                android:checked="true"
+                android:title="@string/activity_type_trail" />
+            <item
+                android:id="@+id/cycling_item"
+                android:checkable="true"
+                android:checked="true"
+                android:title="@string/activity_type_cycling" />
+            <item
+                android:id="@+id/other_item"
+                android:checkable="true"
+                android:checked="true"
+                android:title="@string/activity_type_other" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/help"
+        android:icon="@drawable/ic_help"
+        android:title="@string/item_menu_help"
+        app:showAsAction="ifRoom" />
+
+</menu>

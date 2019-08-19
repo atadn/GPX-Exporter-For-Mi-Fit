@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">GPX Exporter For Mi Fit</string>
+    <string name="activity_summaries_title">Aktiviteler</string>
+
+    <string name="msg_no_root_access">ROOT İzni Yok</string>
+    <string name="msg_no_data">Veri Yok</string>
+
+    <string name="action_dialog_export">Dışarı Aktar</string>
+    <string name="action_dialog_share">Paylaş</string>
+
+    <string name="message_install_gp">Google Play yükleyiniz</string>
+
+    <string name="dialogmail_subject">Geri Bildirim</string>
+    <string name="dialogmail_title">Geri Bildirim Gönder</string>
+
+    <string name="custom_dialog_buy_title">PRO Özellikler</string>
+    <string name="custom_dialog_buy_message">Geliştirici desteklemek ve esktra özellikleri açmak için premium versiyonu satın alabilirsiniz:</string>
+    <string name="custom_dialog_buy_messagebottom">\u25CF Reklamları kaldır\n\u25CF Düşünebileceğiniz herhangi bir gelecek yükseltmesi!</string>
+    <string name="custom_dialog_buy_button">Satın Al</string>
+
+    <string name="billing_purchased">Bunu Zaten Satın Aldınız. Teşekkürler :)</string>
+    <string name="billing_error_gms">Satın Alma İşlemi Başlatılamadı. Lütfen Google Play Service\'i güncelleyiniz</string>
+    <string name="billing_now_purchased">Reklamlar Sonsuza Kadar Kaldırıldı. Teşekkürler!</string>
+    <string name="billing_purchase_failed">Satın Alma İşlemi Başarısız</string>
+
+    <string name="warning_dialog_about_version">Versiyon</string>
+    <string name="warning_dialog_about_positive">Tamam</string>
+    <string name="warning_dialog_about_policy">Gizlilik Politikası</string>
+    <string name="warning_dialog_about_osl">Açık Kaynak Lisansları</string>
+
+    <string name="location_permission_denied_permactivity_bottomtext">Devam etmek için GPX Exporter For Mi Fit\'e \n konum erişim izni verin.</string>
+    <string name="location_permission_denied_permactivity_title">İzin Gerekiyor</string>
+    <string name="location_permission_denied_permactivity_button">AYARLAR\'A GİT</string>
+
+    <string name="export_gpx_saved">GPX şuraya kaydedildi</string>
+    <string name="export_failed">Dışarı Aktarma Başarısız</string>
+
+    <string name="activity_type_run">Koşu</string>
+    <string name="activity_type_walk">Yürüme</string>
+    <string name="activity_type_trail">Dağ Yürüyüşü</string>
+    <string name="activity_type_cycling">Bisiklet</string>
+    <string name="activity_type_other">Diğer</string>
+
+    <string name="item_menu_help">Yardım</string>
+    <string name="item_menu_filter">Filtre</string>
+
+    <string name="title_about">Hakkında</string>
+    <string name="title_rateit">Oy Ver</string>
+    <string name="title_share">Paylaş</string>
+    <string name="title_feedback">Geri Bildirim</string>
+    <string name="title_shop">Reklamları Kaldır</string>
+
+</resources>

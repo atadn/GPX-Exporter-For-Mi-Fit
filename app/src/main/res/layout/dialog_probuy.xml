@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_probuy"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+    android:fillViewport="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="14dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/custom_dialog_buy_title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColorGray"
+        android:layout_gravity="start"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="6dp"
+        android:text="@string/custom_dialog_buy_message" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColorGray"
+        android:layout_gravity="start"
+        android:layout_marginBottom="7dp"
+        android:text="@string/custom_dialog_buy_messagebottom"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_buy"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:text="@string/custom_dialog_buy_button" />
+
+</LinearLayout>

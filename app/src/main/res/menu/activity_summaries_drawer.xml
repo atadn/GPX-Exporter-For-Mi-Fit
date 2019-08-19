@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/top"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_share"
+            android:title="@string/title_share" />
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/ic_feedback_24dp"
+            android:title="@string/title_feedback" />
+        <item
+            android:id="@+id/rateit"
+            android:icon="@drawable/ic_star"
+            android:title="@string/title_rateit" />
+        <item
+            android:id="@+id/noads"
+            android:icon="@drawable/ic_shop"
+            android:title="@string/title_shop" />
+    </group>
+
+
+    <group
+        android:id="@+id/bottom"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/about"
+            android:title="@string/title_about" />
+
+    </group>
+</menu>
